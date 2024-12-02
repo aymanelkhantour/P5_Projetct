@@ -1,0 +1,86 @@
+Simulation de Véhicules avec p5.js
+Ce projet est une simulation de véhicules utilisant la bibliothèque p5.js.Les véhicules poursuivent une cible, évitent des obstacles, et peuvent adopter différents comportements en fonction du mode sélectionné.
+
+Fonctionnalités
+---------------
+Poursuite de cible: Les véhicules poursuivent une cible définie par la position de la souris.
+
+Évitement d'obstacles: Les véhicules évitent les obstacles placés sur leur chemin.
+
+Modes de comportement:
+
+Normal: Les véhicules poursuivent la cible.
+
+Serpent: Les véhicules suivent le leader en formant une chaîne.
+
+Errance ( Wander ): Les véhicules errent de manière aléatoire.
+
+Ennemi: Les véhicules s'arrétent et envoient des balles rouge ( mini-véhicules ) pour attaquer un ennemi ayant une position aléatoire , l'enemi meurt (disparait)
+aprés un nombre aléatoire de balles entre 1 et 6.
+
+
+Installation
+------------
+Clonez ce dépôt.
+
+Assurez-vous d'avoir p5.jsinstallé.
+
+Placez les images nécessaires dans le dossier assets.
+
+
+
+Utilisation
+-----------
+Ouvrez index.html dans votre navigateur.
+
+Utilisez les touches suivantes pour interagir avec la simulation:
+
+v: Ajouter un véhicule.
+
+d: Activer/désactiver le mode debug.
+
+f: Ajouter plusieurs véhicules.
+
+s: Activer le mode serpent.
+
+n: Revenir au mode normal.
+
+w: Activer le mode errance.
+
+o: Ajouter un obstacle à la position de la souris.
+
+e: Activer le mode ennemi.
+
+
+Sliders
+-------
+Vitesse Max: Contrôle la vitesse maximale des véhicules.
+
+Accélération Max: Contrôle l'accélération maximale des véhicules.
+
+Alignement: Contrôle l'alignement des boids.
+
+Cohésion: Contrôle la cohésion des boids.
+
+Séparation: Contrôle la séparation des boids.
+
+
+Classes
+-------
+Vehicle
+La classe Vehicle représente un véhicule dans la simulation. Elle gère les comportements de poursuite, d'évitement et d'errance.
+
+Obstacle
+La classe Obstacle représente un obstacle que les véhicules doivent éviter.
+
+Enemi
+La classe Enemi représente un ennemi que les véhicules doivent attaquer en mode ennemi.
+
+Boids
+La classe Boids représente les boids utilisés pour les comportements d'alignement, de cohésion et de séparation.
+
+Auteur
+Ce projet a été développé par [Votre Nom].
+
+N'hésitez pas à personnaliser ce README en fonction de vos besoins spécifiques!
+
